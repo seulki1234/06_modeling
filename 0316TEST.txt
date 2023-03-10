@@ -1,0 +1,113 @@
+-클래스간 다중성 표기법(클래스다이어그램), 클래스다이어그램 보고해석
+-유스케이스 보고 해석등.. 중요!
+
+**클래스다이어그램 해석
+Test1
+-t2 : Test2
+ + method1():Test3
+
+-->public class Test1 {
+  private Test2 t2;
+  public Test3 method1(){
+    return null;
+}
+}
+
+Test2
+-f1:int
+
+--->public class Test2 {
+ private int f1;
+}
+
+
+Test3
+-str:String
++ getStr():str
++ setStr(str:String):void
+
+--->public class Test3{
+private String str;
+public Strinf getStr(){
+ return str;
+}
+public void setStr(String str){
+ this.str = str;
+}
+}
+
+엔티티,
+속성(column)
+(row)
+
+
+-어플리케션 pdf 1p 다 외우기
+-1.개념적모델링_Entity도출하기 읽어만 봐도됨
+-CHAP02_2.개념적모델링_ERD 중요!
+(쓰는용어 알아두기, 주식별자/외래식별자 구분+ 특징2가지 이상씩)
+
+ERD 표기법 : 식별자
+1. 주식별자 특징
+-유일성 : 주식별자에 의해 엔티티내에 모든 인스턴스들을 유일하게 구분
+-최소성 : 주식별자를 구성하는 속성의 수는 유일성을 만족하는 최소의 수가 되어야함
+-불변성 : 주식별자가 한번 특정 엔티티에 지정되면 그 식별자의 값은 변하지 않아야함
+-존재성 : 주식별자가 지정되면 반드시 데이터값이 존재해야함(NOT NULL)
+
+
+식별-비식별 관계
+
+
+엔티티:학생, 교수,성적,과목
+성적 : 학생 ID, 학생PW, 학생명, 학과, 학년 , 교수ID, 교수PWD, 교수명, 교수학과, 과목ID, 과목명
+,과목점수,학점
+
+-> 위 내용 해석후, 표만들고, 식별, 비식별 표시 만들기(mandatory, option, 다, 1 관계 표시)
+->각각의 KEY 값에 들어갈 값 설정해주는거 
+
+
+
+요구사항 정의서, 유스케이스 토대로, ERD 만들기
+벨로그 ---
+-엔티티도출(테이블)-회원가입, 
+-속성 (PK ?)
+-관계
+-타입
+
+
+게시물아이디, 게시물 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -28,7 +28,7 @@ Test3
 
 --->public class Test3{
 private String str;
-public Strinf getStr(){
+public Str getStr(){
  return str;
 }
 public void setStr(String str){
@@ -36,9 +36,9 @@ public void setStr(String str){
 }
 }
 
-엔티티,
+엔티티(table)
 속성(column)
-(row)
+인스턴스(row)
 
 
 -어플리케션 pdf 1p 다 외우기
@@ -85,22 +85,11 @@ ERD 표기법 : 식별자
 
 
 
+수업시간에 클래스다이어그램, 시퀀스 다이어그램 자료?
+클래스 다이어그램, 시퀀스 다이어그램은 어디까지 공부해놓을지?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+학사관리 erd 만든게 맞는지?
+클래스다이어그램은 어떤 프로그램으로 만드는지?
 
 
 
